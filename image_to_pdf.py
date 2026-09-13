@@ -68,7 +68,7 @@ st.markdown(
 )
 
 # ---------- Language toggle ----------
-lang = st.radio("Language / 언어", options=["English", "한국어"], horizontal=True, label_visibility="collapsed")
+lang = st.radio("Language / 언어", options=["한국어", "English"], horizontal=True, label_visibility="collapsed")
 t = TEXT[lang]
 
 st.title(t["title"])
